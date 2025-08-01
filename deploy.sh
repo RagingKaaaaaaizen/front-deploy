@@ -9,14 +9,16 @@ export NPM_CONFIG_FUND=false
 echo "Installing dependencies..."
 npm install --legacy-peer-deps
 
-# Build the application
-echo "Building application..."
-npm run build
+# Build the application in production mode
+echo "Building application in production mode..."
+npm run build:prod
 
 # Check if build was successful
 if [ $? -eq 0 ]; then
     echo "Build completed successfully!"
     echo "Built files are in dist/angular-signup-verification-boilerplate/"
+    echo "Total build size:"
+    du -sh dist/angular-signup-verification-boilerplate/
 else
     echo "Build failed!"
     exit 1
