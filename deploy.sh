@@ -1,7 +1,7 @@
 #!/bin/bash
 
-# Install dependencies
-npm install
+# Install dependencies with legacy peer deps to resolve conflicts
+npm install --legacy-peer-deps
 
 # Build the application
 npm run build
