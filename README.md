@@ -48,13 +48,6 @@ The Computer Lab Inventory Management System is a sophisticated web application 
 - **Category System**: Hierarchical item categorization
 - **Storage Locations**: Track items across multiple locations
 
-### 📊 Advanced Features
-- **Workflow Management**: Streamlined approval processes
-- **Request System**: Employee request tracking
-- **Audit Logging**: Complete transaction history
-- **Reporting**: Comprehensive inventory reports
-- **Employee Management**: Staff and department tracking
-
 ### 🎨 User Interface
 - **Modern Design**: Professional, responsive interface
 - **Intuitive Navigation**: User-friendly menu system
