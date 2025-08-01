@@ -16,4 +16,9 @@ npm run build:prod
 echo "Build completed. Checking output directory..."
 ls -la dist/angular-signup-verification-boilerplate/
 
-echo "Build script completed successfully!" 
+# Create a symlink to help Render find the directory
+echo "Creating directory reference..."
+ln -sf dist/angular-signup-verification-boilerplate build-output
+
+echo "Build script completed successfully!"
+echo "Output directory: dist/angular-signup-verification-boilerplate" 
