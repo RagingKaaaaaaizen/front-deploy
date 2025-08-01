@@ -3,7 +3,7 @@ services:
     name: computer-lab-inventory-frontend
     env: static
     buildCommand: npm install --legacy-peer-deps && npm run build:prod
-    staticPublishPath: dist/angular-signup-verification-boilerplate
+    staticPublishPath: ./dist/angular-signup-verification-boilerplate
     envVars:
       - key: NODE_VERSION
         value: 18.20.0
