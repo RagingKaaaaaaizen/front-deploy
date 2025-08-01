@@ -11,8 +11,7 @@
       "extends": [
         "eslint:recommended",
         "@angular-eslint/recommended",
-        "@angular-eslint/recommended--extra",
-        "@angular-eslint/template/process-inline-templates"
+        "@angular-eslint/recommended--extra"
       ],
       "rules": {
         "@angular-eslint/directive-selector": [
