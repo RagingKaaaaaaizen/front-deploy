@@ -1,1 +1,0 @@
-{"ast":null,"code":"export class Department {\n  id;\n  name;\n  description;\n}","map":null,"metadata":{},"sourceType":"module","externalDependencies":[]}

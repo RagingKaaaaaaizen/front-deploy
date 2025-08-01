@@ -1,1 +1,0 @@
-{"ast":null,"code":"export class Employee {\n  id;\n  employeeId;\n  position;\n  userId; // one to one relationship between this id and id sa account table\n  departmentId; // one to many relationship sa department id adtu sa department table\n  hireDate;\n  isActive;\n  account;\n  department;\n}","map":null,"metadata":{},"sourceType":"module","externalDependencies":[]}

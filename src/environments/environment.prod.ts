@@ -1,6 +1,4 @@
-declare const process: any;
-
 export const environment = {
   production: true,
-  apiUrl: process.env['API_URL'] || 'http://localhost:4000'
+  apiUrl: 'https://your-api-url.com' // Update this with your actual API URL
 };
