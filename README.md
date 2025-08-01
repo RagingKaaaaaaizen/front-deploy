@@ -83,7 +83,7 @@ The Computer Lab Inventory Management System is a sophisticated web application 
 
 ```
 capstone/
-├── introprogfrontt/                 # Angular Frontend
+├── Computer-Lab-Inventory-Frontend/ # Angular Frontend
 │   ├── src/
 │   │   ├── app/
 │   │   │   ├── _components/        # Shared components
@@ -100,7 +100,7 @@ capstone/
 │   ├── package.json
 │   └── angular.json
 │
-├── Watcha_lingan_guli_guli/        # Node.js Backend
+├── Computer-Lab-Inventory-Backend/ # Node.js Backend
 │   ├── _helpers/                   # Utility functions
 │   ├── _middleware/                # Express middleware
 │   ├── accounts/                   # User management
