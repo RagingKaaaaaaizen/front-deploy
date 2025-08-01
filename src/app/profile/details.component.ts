@@ -375,7 +375,9 @@ import { AccountService } from '@app/_services';
     `]
 })
 export class DetailsComponent {
-    account = this.accountService.accountValue;
+    account: any;
 
-    constructor(private accountService: AccountService) { }
+    constructor(private accountService: AccountService) { 
+        this.account = this.accountService.accountValue;
+    }
 }

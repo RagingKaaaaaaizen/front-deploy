@@ -329,7 +329,7 @@ import { MustMatch } from '@app/_helpers';
     `]
 })
 export class UpdateComponent implements OnInit {
-    account = this.accountService.accountValue;
+    account: any;
     form: UntypedFormGroup;
     loading = false;
     submitted = false;
@@ -343,7 +343,9 @@ export class UpdateComponent implements OnInit {
         private router: Router,
         private accountService: AccountService,
         private alertService: AlertService
-    ) { }
+    ) { 
+        this.account = this.accountService.accountValue;
+    }
 
     ngOnInit() {
         this.form = this.formBuilder.group({

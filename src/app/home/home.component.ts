@@ -185,9 +185,11 @@ import { Role } from '@app/_models';
 })
 export class HomeComponent {
     Role = Role;
-    account = this.accountService.accountValue;
+    account: any;
 
-    constructor(private accountService: AccountService) { }
+    constructor(private accountService: AccountService) { 
+        this.account = this.accountService.accountValue;
+    }
 
     hasRole(roles: Role[]): boolean {
         const account = this.accountService.accountValue;
